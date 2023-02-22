@@ -1,0 +1,9 @@
+.logo{
+    /* filter: drop-shadow(0px 1px 1px #fff); */
+}
+.banner {
+    position: relative; 
+    background: -moz-linear-gradient(left, #000000 0%, #033373 100%);
+    background: -webkit-linear-gradient(left, #000000 0%, #033373 100%);
+    background: linear-gradient(to right, #000000 0%, #033373 60%,#027bff );
+}
