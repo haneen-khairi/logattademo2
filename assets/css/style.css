@@ -2647,19 +2647,22 @@ footer.education .social-icone ul li a {
 
 .breadcrumb {
     display: -webkit-inline-box;
-    padding: 10px 30px;
+    padding: 5px 30px;
     border-radius: 30px;
-    background: white;
+    background: #ffffff2b;
 }
-
+.mg-60-top{
+    margin-top: 60px;
+}
 .iq-breadcrumb-five .title {
     font-size: 50px;
     margin-bottom: 15px;
     margin-top: 15px;
+    color:#fff;
 }
 
 .iq-breadcrumb-five .breadcrumb-item a {
-    color: black;
+    color: #fff;
 }
 
 .breadcrumb-item.active {

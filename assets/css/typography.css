@@ -32,7 +32,7 @@ Design and Developed by: iqonicthemes.in
 -----------------------------------------------------------------------*/
 @import url("../css/fontawesome-all.min.css");
 @import url("../css/owl.carousel.css");
-@import url("ionicons.min.css");
+@import url("../css/ionicons.min.css");
 /*---------------------------------------------------------------------
 3 General
 -----------------------------------------------------------------------*/
@@ -84,7 +84,7 @@ textarea { padding: 10px 0 0 10px; border-radius: .25rem; }
 -----------------------------------------------------------------------*/
 .white-bg { background: #ffffff; }
 .gray-bg { background: #FAFAFA; }
-.main-bg { background: #027bff; }
+.main-bg { background: #23125e; }
 .black-bg { background: #828286; }
 /*************************
 9 BG - Images
