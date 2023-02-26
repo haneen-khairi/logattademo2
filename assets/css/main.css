@@ -6,4 +6,16 @@
     background: -moz-linear-gradient(left, #000000 0%, #033373 100%);
     background: -webkit-linear-gradient(left, #000000 0%, #033373 100%);
     background: linear-gradient(to right, #000000 0%, #033373 60%,#027bff );
-}
+} 
+footer {
+    position: relative;
+    background: #46c894;
+    background: rgba(117, 205, 111, 1);
+    background: -moz-linear-gradient(left, rgba(117, 205, 111, 1) 0%, rgba(70, 200, 148, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(117, 205, 111, 1)), color-stop(100%, rgba(70, 200, 148, 1)));
+    background: -webkit-linear-gradient(left, rgba(117, 205, 111, 1) 0%, rgba(70, 200, 148, 1) 100%);
+    background: -o-linear-gradient(left, rgba(117, 205, 111, 1) 0%, rgba(70, 200, 148, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(117, 205, 111, 1) 0%, rgba(70, 200, 148, 1) 100%);
+    background: linear-gradient(to right, #000000 0%, #0b52a0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#75cd6f', endColorstr='#46c894', GradientType=1);
+}'
