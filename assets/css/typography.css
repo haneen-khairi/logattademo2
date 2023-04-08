@@ -52,7 +52,7 @@ h1 { font-size: 40px; font-style: normal; line-height: 60px; }
 h2 { font-size: 36px; font-style: normal; line-height: 50px; }
 h3 { font-size: 24px; font-style: normal; line-height: 36px; }
 ul { margin: 0px; padding: 0px; }
-section { padding: 100px 0; }
+section { padding: 130px 0; margin-bottom:50px; }
 
 /*---------------------------------------------------------------------
 4 Input and textarea
@@ -69,7 +69,7 @@ textarea { padding: 10px 0 0 10px; border-radius: .25rem; }
 6 Title
 -----------------------------------------------------------------------*/
 .title-box .title { font-weight: 600; letter-spacing: 2px; position: relative; z-index: -1; }
-.title-box span { text-shadow: 0 10px 10px rgba(0, 0, 0, .15); font-weight: 800; color: #044393; }
+.title-box span { font-weight: 800; color: #044393; }
 .title-box p {font-size: 17px; line-height: 2em; }
 /*---------------------------------------------------------------------
 7 Button

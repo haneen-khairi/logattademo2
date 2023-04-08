@@ -31,8 +31,82 @@ Design and Developed by: iqonicthemes.in
 [ End table content ]
 ======================================*/
 /*---------------------------------------------------------------------
+
 1 Header
 -----------------------------------------------------------------------*/
+/* ---- reset ---- */
+*{
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+    font:normal 75% Arial, Helvetica, sans-serif;
+  }
+  p{
+    font-size:16px;
+  }
+  
+  canvas {
+    display: block;
+    vertical-align: bottom;
+    max-height:450px;
+  }
+  
+  /* ---- particles.js container ---- */
+  .main-bg{
+    position: relative;
+  }
+  .mg-top-150{
+    margin-top: 150px;
+  }
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    top:0px;
+    left:0px;
+    min-height:375px;
+    height: 100%;
+    background-color: #070155;
+    max-height: 450px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  /* ---- stats.js ---- */
+  
+  .count-particles{
+    /* background: #000022; */
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+   
+    
+  }
+  
+  .js-count-particles{
+    font-size: 1.1em;
+  }
+  
+  #stats,
+  .count-particles{
+    -webkit-user-select: none;
+  }
+  
+  #stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  
+  .count-particles{
+    border-radius: 0 0 3px 3px;
+  }
+ footer{
+    position: relative;
+    z-index: 1
+ }
 header {
     z-index: 999;
     -webkit-transition: all 0.3s ease-out 0s;
@@ -47,7 +121,7 @@ header {
 }
 
 header .logo {
-    width: 150px;
+    width: 180px;
     display: block;
 }
 
@@ -76,8 +150,8 @@ header .navbar-brand {
 }
 
 header.menu-sticky {
-    position: fixed;
-    padding-top: 0;
+    /* position: fixed; */
+    padding-top: 10px;
     top: 0;
     left: 0;
     display: inline-block;
@@ -254,16 +328,7 @@ header.menu-sticky .login li a:hover {
 -----------------------------------------------------------------------*/
 .banner {
     position: relative;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#027bff+0,7d4ac7+100 */
-    background: #027bff;
-    /* Old browsers */
-    background: -moz-linear-gradient(left, #027bff 0%, #033373 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #027bff 0%, #033373 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #027bff 0%, #033373 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#027bff', endColorstr='#033373', GradientType=1);
+    background: linear-gradient(to bottom right, #fff 0%, #033373 70% );  
     /* IE6-9 */
 }
 
@@ -284,17 +349,17 @@ header.menu-sticky .login li a:hover {
     font-size: 35px;
     font-weight: 600;
     margin-top: 120px;
-    color: #ffffff;
+    color: #10163b;
 }
 
 .banner .banner-text h3 {
-    color: #ffffff;
+    color: #10163b;
 }
 
 .banner .banner-text h3 span {
     font-weight: 600;
     font-size: 18px;
-    color: #ffffff;
+    color: #10163b;
 }
 
 .banner-after {
@@ -1155,7 +1220,7 @@ Blog Detail
 7 Footer
 -----------------------------------------------------------------------*/
 footer {
-    background: linear-gradient(to right, rgba(167, 51, 187, 1) 0%, rgba(125, 74, 199, 1) 100%);
+    /* background: linear-gradient(to right, rgba(167, 51, 187, 1) 0%, rgba(125, 74, 199, 1) 100%); */
     position: relative;
 }
 
@@ -1307,7 +1372,7 @@ footer .logo {
 }
 
 .about-manu li a {
-    color: #222222;
+    color: #fff;
     font-weight: 600;
     font-size: 18px;
     position: relative;
@@ -1325,7 +1390,9 @@ footer .logo {
     border-bottom: 10px solid #ffffff;
     margin-left: -10px;
 }
-
+.img-fluid{
+border-radius: 10px;
+}
 .about-manu {
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -1339,18 +1406,18 @@ footer .logo {
 .about-manu.menu-sticky {
     position: fixed;
     padding-top: 0;
-    top: 48px;
+    top: 0px;
     left: 0;
     display: inline-block;
     width: 100%;
     z-index: 99;
-    background: #e8e8e8;
+    background: #070155;
     padding: 10px 0;
     border-bottom: inherit;
 }
 
 .about-content strong {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .about-content .iq-list li {
@@ -1367,11 +1434,11 @@ footer .logo {
 .about-content .iq-list li:before {
     position: absolute;
     left: -40px;
-    top: 8px;
+    top: 2px;
     content: "\f3fe";
     font-family: "Ionicons";
     font-size: 32px;
-    color: #027bff;
+    color: #3739b7;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -1387,6 +1454,8 @@ footer .logo {
     transition: all 0.3s ease-out 0s;
     border-bottom: 1px solid #e8e8e8;
     padding-bottom: 20px;
+    padding-top: 20px;
+
 }
 
 .iq-about {
@@ -2003,8 +2072,9 @@ footer .logo {
     color: #ffffff;
     position: fixed;
     bottom: 0;
-    left: 25%;
-    width: 50%;
+    left: 0;
+    width: 100%;
+    height: 45px;
     padding: 8px 20px;
     display: none;
     z-index: 999;
@@ -2012,13 +2082,14 @@ footer .logo {
     -moz-box-shadow: -1px -5px 21px 1px rgba(0, 0, 0, 0.12);
     box-shadow: -1px -5px 21px 1px rgba(0, 0, 0, 0.12);
     border-radius: 6px;
+    font-size: 12px;
 }
 
 #cookie_div .button {
     float: right;
-    padding: 5px 20px;
+    padding: 0px 15px;
     font-size: 12px;
-    margin-top: 3px;
+    margin-top: 0px;
 }
 
 /*---------------------------------------------------------------------
@@ -2289,8 +2360,8 @@ footer {
 
 footer .footer-logo img {
     height: 40px;
+    filter: drop-shadow(-1px 0px 6px black);
 }
-
 footer .social-icone ul {
     margin-bottom: 0;
 }
@@ -2378,8 +2449,13 @@ footer .footer-title {
 
 footer .footer-top {
     padding-top: 80px;
+    z-index: 999;
+    position: relative;
 }
-
+.social-icone{
+    z-index: 999;
+    position: relative;
+}
 /* Footer Two */
 footer.footer2 {
     color: #fff;
@@ -2657,7 +2733,7 @@ footer.education .social-icone ul li a {
 .iq-breadcrumb-five .title {
     font-size: 50px;
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 12rem;
     color:#fff;
 }
 
@@ -2667,4 +2743,8 @@ footer.education .social-icone ul li a {
 
 .breadcrumb-item.active {
     color: #027bff;
+}
+.main-content{
+    position: relative;
+    top: 100px;
 }

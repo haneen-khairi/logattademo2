@@ -3,9 +3,7 @@
 }
 .banner {
     position: relative; 
-    background: -moz-linear-gradient(left, #000000 0%, #033373 100%);
-    background: -webkit-linear-gradient(left, #000000 0%, #033373 100%);
-    background: linear-gradient(to right, #000000 0%, #033373 60%,#027bff );
+    background: linear-gradient(to bottom right, #fff 0%, #033373 70% );
 } 
 footer {
     position: relative;
