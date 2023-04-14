@@ -72,13 +72,13 @@ header.menu-sticky .navbar-light .navbar-nav .nav-item:hover a:before, header.me
 
 @media(max-width:979px) {
 .r-mt3 { margin-top: 30px; }
-.breadcrumbs .text-right { text-align: !important; }
+.breadcrumbs .text-right { text-align:right !important; }
 .works-box { margin-top: 140px; }
 .title-box h2 { font-size: 32px; }
 .support .title-box h2 { font-size: 28px; }
 .iq-features .top-img1 { width: 50%; }
 .iq-works { margin-top: 0 !important; }
-.works-box .top-img1.i-size { width: 45%; }
+.works-box .top-img1.i-size { width: 100%; }
 }
 
 
@@ -115,7 +115,7 @@ header{top: 20px;}
 #partners .col-lg-2.col-md-3.col-sm-4.mt-5 { width: 50%; }
 .pricing-box .price-blog { padding: 10px 0 !important; }
 .contentCircle .CirItem { top: 80px; }
-.works-box .top-img1.i-size { width: 50%; }
+.works-box .top-img1.i-size { width: 100%; }
 }
 
 
