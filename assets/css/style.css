@@ -2777,3 +2777,10 @@ footer.education .social-icone ul li a {
     position: relative;
     top: 100px; 
 }
+.emp-img{
+
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+
+}
