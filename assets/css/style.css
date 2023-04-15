@@ -1401,12 +1401,14 @@ footer .logo {
 }
 
 .about-manu li a {
-    color: #fff;
+    color: rgb(5 1 57);
     font-weight: 600;
     font-size: 18px;
     position: relative;
 }
-
+.menu-sticky li a {
+    color: #fff;
+}
 .about-manu li.active a:after {
     position: absolute;
     left: 50%;
