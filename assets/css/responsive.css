@@ -110,7 +110,7 @@ header{top: 20px;}
 .contentCircle { top: -120px; position: absolute; width: 100%; }
 .dotCircle { top: 50%; width: 300px; }
 .holderCircle { width: 100%; }
-.banner .banner-text { padding: 120px 0 25px 0; }
+.banner .banner-text {     padding: 350px 0 25px 0; }
 .breadcrumbs { padding: 200px 0 90px 0; }
 #partners .col-lg-2.col-md-3.col-sm-4.mt-5 { width: 50%; }
 .pricing-box .price-blog { padding: 10px 0 !important; }

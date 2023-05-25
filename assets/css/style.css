@@ -352,6 +352,7 @@ header.menu-sticky .login li a:hover {
     position: relative;
     height: 675px;
     background: linear-gradient(to bottom right, #fff 0%, #033373 70% );  
+    background-position: center right 25%!important;
     margin-bottom:-100px;
 }
 iq-features{
@@ -419,7 +420,7 @@ iq-features{
 }
 
 .banner .banner-text .button i {
-    font-size: 40px;
+    font-size: 30px;
     color: #050139;
 }
 
@@ -498,7 +499,7 @@ iq-features{
 }
 
 .iq-works .m-top {
-    margin-top: 400px;
+    margin-top: 100px;
 }
 
 .iq-works .m-top.works-arrow1 {
@@ -517,6 +518,7 @@ iq-features{
 .iq-works ul li {
     list-style: none;
     font-weight: 500;
+    font-size: 14px;
     color: #666666;
 }
 
@@ -622,14 +624,14 @@ iq-features{
 }
 
 .works-arrow1:after {
-    position: absolute;
+    /* position: absolute;
     bottom: -285px;
     left: 221px;
     content: "";
     width: 100%;
     height: 285px;
     background: url(../images/works/works-arrow1.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 .works-arrow2:after {
@@ -1540,6 +1542,7 @@ border-radius: 10px;
 .team-box .title {
     font-weight: 800;
     margin-bottom: 0;
+    color: #a90303;
 }
 
 .team-box p {
@@ -2779,10 +2782,37 @@ footer.education .social-icone ul li a {
     position: relative;
     top: 100px; 
 }
-.emp-img{
-
+.emp-img{ 
     width: 200px;
     height: 250px;
-    object-fit: contain;
+    object-fit: contain; 
+}
+.team-img{
+    position: relative;
+}
+.team-img::after{
+    position: absolute;
+    content: " ";
+    left: 0px;
+    border: 5px solid white;
+    width: 100%;
+    height: 100%;
+    top: -20px;
+    z-index: -1;
+    border-radius: 75%;
+}
+.team-img::before{
+    position: absolute;
+    content: " ";
+    top:-20px;
+    left: 10px;
+    border: 3px solid #07015542;
+    box-shadow: 1px 1px 10px #a2a2a2;
+    border-radius: 75%; 
+    width:100%;
+    height:100%;
+    z-index: -1;
+    padding:10px; 
+background-color: #070155;
 
 }

@@ -16,4 +16,13 @@ footer {
     background: -ms-linear-gradient(left, rgba(117, 205, 111, 1) 0%, rgba(70, 200, 148, 1) 100%);
     background: linear-gradient(to right, #000000 0%, #0b52a0 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#75cd6f', endColorstr='#46c894', GradientType=1);
-}'
+}
+.d-center-gap1{
+    display: flex;
+    gap: 1rem;
+    align-items: center; 
+    align-content: center;
+}
+.dotCircle .itemDot:hover, .dotCircle .itemDot.active img{
+    filter: invert(1);
+}
