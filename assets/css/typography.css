@@ -70,10 +70,14 @@ textarea { padding: 10px 0 0 10px; border-radius: .25rem; }
 -----------------------------------------------------------------------*/
 .title-box .title { font-weight: 600;     letter-spacing: -1px; position: relative; z-index: -1; }
 .CirItem .title{
-    font-weight: 600;     letter-spacing: -1px; position: relative; z-index: -1;margin-bottom: -70px; 
+    font-weight: 600; font-size: 24px;  letter-spacing: -1px; position: relative; z-index: -1;margin-bottom: 0px; 
 }
 .title-box span { font-weight: 800; color: #044393; }
-.title-box p {font-size: 17px; line-height: 2em; }
+.title-box p {
+    font-size: 16px;
+    text-align: inherit;
+    line-height: 2em;
+}
 /*---------------------------------------------------------------------
 7 Button
 -----------------------------------------------------------------------*/

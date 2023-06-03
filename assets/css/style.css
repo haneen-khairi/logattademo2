@@ -352,7 +352,9 @@ header.menu-sticky .login li a:hover {
     position: relative;
     height: 675px;
     background: linear-gradient(to bottom right, #fff 0%, #033373 70% );  
-    background-position: center right 25%!important;
+    background-position: top !important;
+    background-repeat: repeat;
+    background-size: cover;
     margin-bottom:-100px;
 }
 iq-features{
@@ -374,7 +376,7 @@ iq-features{
 .banner .banner-text h1 {
     font-size: 35px;
     font-weight: 600;
-    margin-top: 120px;
+    margin-top: 200px;
     color: #fff;
 }
 
@@ -641,7 +643,7 @@ iq-features{
     content: "";
     width: 100%;
     height: 285px;
-    background: url(../images/works/works-arrow2.png);
+
     background-repeat: no-repeat;
 }
 
@@ -1227,8 +1229,12 @@ Blog Detail
 }
 
 .iq-clients .owl-carousel .owl-item img {
-    width: inherit;
+    /* width: inherit; */
     display: inherit; 
+    width: auto;
+    object-fit: contain;
+    object-position: center;
+    height: 100px;
 }
 .blog-box .blog-img { 
         object-fit: cover;
@@ -2817,13 +2823,12 @@ background-color: #070155;
 
 }
 .shadow-effect {
-    background: #fff;
+    background: transparent;
     padding: 20px;
     border-radius: 4px;
     text-align: center;
-    min-height:350px;
-border:1px solid #ECECEC;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+    min-height:150px;
+ 
 }
 #customers-testimonials .shadow-effect p {
     font-family: inherit;
@@ -2895,4 +2900,73 @@ display: inline-block;
 }
 .blog-box{
     margin:0px 10px;
+}
+.statistic-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-image: url(https://t4.ftcdn.net/jpg/05/29/93/53/360_F_529935327_T2If5LppEhHG8TvkMQrE6ERLGoNsqJuT.jpg); */
+    background-position: unset;
+    min-height: 300px;
+    margin-bottom: 0px;
+    margin-top: -50px;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.count-title {
+    font-size: 2rem;
+   font-weight: normal;
+   margin-bottom: 0;
+     text-align: center;
+     font-weight: bold;
+   color: #033373;
+}
+.counter .image-counter{
+    /* filter: invert(1); */
+    width: 40px;
+    margin:10px auto;
+
+}
+.stats-text {
+    font-size: 14px;
+   font-weight: normal;
+   margin-top: 15px;
+   margin-bottom: 0;
+   text-align: center;
+     color: #033373;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+
+.stats-line-black {
+   margin: 12px auto 0;
+   width: 55px;
+   height: 2px;
+   background-color: #fff;
+}
+.stats-icon {
+     font-size: 25px;
+     margin: 0 auto;
+   float: none;
+   display: table;
+   color: #033373;
+}
+.counter{
+    padding: 20px;
+    border-radius: 50%;
+    border: 10px solid #332174;
+    border-top: 0px;
+    border-bottom: 0px;
+    box-shadow: 1px 1px 10px #ffffff;
+    height: 175px;
+    width: 175px;
+    background-color: #fff;
+}
+@media (max-width: 992px) {
+   .counter {
+       margin-bottom: 40px;
+   }
+}
+.no-padding{
+    padding:20px 0px;
 }

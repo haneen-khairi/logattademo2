@@ -17,7 +17,7 @@ footer:before { top: -64px; }
 
 
 @media(max-width:1199px) {
-.banner .banner-text h1 {font-size: 24px; margin-top: 90px; line-height: 42px;}
+.banner .banner-text h1 {font-size: 24px; margin-top: 200px; line-height: 42px;}
 .banner .banner-img { bottom: -35px; }
 .iq-works .m-top { margin-top: 470px; }
 .works-arrow2:after { right: -130px; }
