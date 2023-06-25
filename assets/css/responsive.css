@@ -17,7 +17,7 @@ footer:before { top: -64px; }
 
 
 @media(max-width:1199px) {
-.banner .banner-text h1 {font-size: 24px; margin-top: 200px; line-height: 42px;}
+.banner .banner-text h1 {font-size: 24px; margin-top: 120px; line-height: 42px;}
 .banner .banner-img { bottom: -35px; }
 .iq-works .m-top { margin-top: 470px; }
 .works-arrow2:after { right: -130px; }
@@ -96,6 +96,13 @@ footer .copyright { margin-top: 30px; }
 #chat-circle i { font-size: 32px;}
 header{top: 20px;}
 .login { padding: 4px 15px;}
+.banner .banner-text h1 {font-size: 24px; margin-top: 0px; line-height: 42px;}
+.banner {
+ background-position: top 35% right 24%!important;
+}
+header .logo {
+    width: 180px;
+}
 }
 
 
@@ -107,8 +114,8 @@ header{top: 20px;}
 .banner .banner-text h3 { font-size: 18px; }
 .round { width: 320px; height: 320px; top: 0; left: 0; }
 .round, .breadcrumbs-after { display: none; }
-.contentCircle { top: -120px; position: absolute; width: 100%; }
-.dotCircle { top: 50%; width: 300px; }
+.contentCircle { top: 70px;position: absolute; width: 100%; }
+.dotCircle { top: -100%; width: 300px; }
 .holderCircle { width: 100%; }
 .banner .banner-text {     padding: 350px 0 25px 0; }
 .breadcrumbs { padding: 200px 0 90px 0; }
@@ -116,6 +123,27 @@ header{top: 20px;}
 .pricing-box .price-blog { padding: 10px 0 !important; }
 .contentCircle .CirItem { top: 80px; }
 .works-box .top-img1.i-size { width: 100%; }
+.mobile-image-opacity{
+    opacity: 0.3;
+}
+.dotCircle .itemDot{
+    width:60px;
+    height: 60px;
+}
+.itemDot img{
+width:32px;
+margin-top: -30px;
+}
+.iq-features {
+    padding: 5px 0px;
+    margin: 0px auto;
+}
+.works-box {
+    margin-top: 60px;
+}
+.counter { 
+    margin: 20px auto;
+}
 }
 
 
@@ -143,7 +171,7 @@ header{top: 20px;}
 .title-box h2 { font-size: 24px; line-height: 34px;  margin-top:50px;}
 .iq-works .m-top { margin-top: 80px; }
 .iq-works .m-top.works-arrow1 { margin-top: 45px; }
-.works-box { margin-top: 250px; }
+.works-box { margin-top: 60px; }
 .about-manu li { margin: 0; width: 100%; display: inherit !important; }
 .about-manu.menu-sticky { padding: 0; }
 .about-manu li.active a:after { border: inherit !important; }
@@ -153,7 +181,7 @@ header{top: 20px;}
 .iq-login-regi h1 { font-size: 30px; line-height: 50px; }
 .support form .form-control { width: 195px; }
 .support .title-box h2 { font-size: 24px; }
-header .logo { width: 90px; }
+/* header .logo { width: 90px; } */
 header .login li { padding-right: 5px; margin-right: 1px; }
 header .login { right: 75px; top: -48px; font-size: 12px; padding: 0 12px; }
 header .navbar { padding: 10px 0; }

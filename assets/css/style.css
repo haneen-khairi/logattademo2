@@ -2464,9 +2464,21 @@ footer .widget ul.menu li a {
 }
 
 footer .widget ul.menu li a:hover, footer .social-icone ul li a:hover {
-    color: #333333;
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
 }
-
+.iq-contact a:hover , .iq-contact a:hover svg{
+    margin-right:10px;
+    fill:#000237;
+color:#f2f2f2;
+}
+.iq-contact a{
+    font-size:14px;
+}
+.iq-contact a svg{
+    margin-right:10px;
+ 
+}
 footer .widget ul li a:before {
     display: none;
 }
@@ -2840,9 +2852,9 @@ background-color: #070155;
 .testimonial-name {
     margin: -17px auto 0;
     display: table;
-    width: auto;
+    width: 180px;
     background: #3190E7;
-    padding: 9px 35px;
+    padding: 10px 0px;
     border-radius: 12px;
     text-align: center;
     color: #fff;
@@ -2867,7 +2879,7 @@ background-color: #070155;
 }
 .owl-carousel .owl-item img {
     transform-style: preserve-3d;
-    max-width: 90px;
+    max-width: 100%;
     margin: 0 auto 17px;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
@@ -2904,7 +2916,7 @@ display: inline-block;
 .statistic-section {
     padding-top: 50px;
     padding-bottom: 50px;
-    /* background-image: url(https://t4.ftcdn.net/jpg/05/29/93/53/360_F_529935327_T2If5LppEhHG8TvkMQrE6ERLGoNsqJuT.jpg); */
+    background-color: #033373;
     background-position: unset;
     min-height: 300px;
     margin-bottom: 0px;
@@ -2952,11 +2964,11 @@ display: inline-block;
    color: #033373;
 }
 .counter{
-    padding: 20px;
-    border-radius: 50%;
-    border: 10px solid #332174;
-    border-top: 0px;
-    border-bottom: 0px;
+    padding: 10px 20px;
+    border-radius: 0px;
+    border: 10px solid #2059a4;
+    border-top: 10px dashed #fff;
+    border-bottom: 10px dashed #fff;
     box-shadow: 1px 1px 10px #ffffff;
     height: 175px;
     width: 175px;

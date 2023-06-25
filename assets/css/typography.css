@@ -134,3 +134,6 @@ form .small-text { font-size: 14px; line-height: 20px; }
 .iq-features{
     padding:30px 0px;
 }
+.owl-nav{
+    display: none;
+}

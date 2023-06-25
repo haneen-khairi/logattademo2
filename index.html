@@ -141,7 +141,7 @@
          <div class="container">
             <div class="row align-items-center">
                <div class="col-lg-6 col-md-12 text-center">
-                  <img class="img-fluid" src="assets/img/main.png" alt="image">
+                  <img class="img-fluid mobile-image-opacity" src="assets/img/main.png" alt="image">
                </div>
                <div class="col-lg-6 col-md-12">
                   <div class="holderCircle">
@@ -930,7 +930,7 @@
             <div class="row text-center">
                <div class="col-xs-12 col-md-3">
                   <div class="counter">
-                     <img src="https://cdn-icons-png.flaticon.com/32/7445/7445626.png " class="image-counter" alt="">
+                     <img src="https://cdn-icons-png.flaticon.com/64/7445/7445626.png " class="image-counter" alt="">
                      <h2 class="timer count-title count-number" data-start="2" data-target="32">32</h2>
                      <p class="stats-text">Partner</p>
                   </div>
@@ -938,21 +938,21 @@
                <div class="col-xs-12 col-md-3">
                   <div class="counter">
 
-                     <img src="https://cdn-icons-png.flaticon.com/32/3083/3083741.png" class="image-counter" alt="">
+                     <img src="https://cdn-icons-png.flaticon.com/64/3083/3083741.png" class="image-counter" alt="">
                      <h2 class="timer count-title count-number" data-start="1" data-target="22">22</h2>
                      <p class="stats-text">Country</p>
                   </div>
                </div>
                <div class="col-xs-12 col-md-3">
                   <div class="counter">
-                     <img src="https://cdn-icons-png.flaticon.com/32/7568/7568486.png" class="image-counter" alt="">
+                     <img src="https://cdn-icons-png.flaticon.com/64/7568/7568486.png" class="image-counter" alt="">
                      <h2 class="timer count-title count-number" data-start="3028" data-target="3428">3428</h2>
                      <p class="stats-text">Client's</p>
                   </div>
                </div>
                <div class="col-xs-12 col-md-3">
                   <div class="counter">
-                     <img src="https://cdn-icons-png.flaticon.com/32/4844/4844346.png " class="image-counter" alt="">
+                     <img src="https://cdn-icons-png.flaticon.com/64/4844/4844346.png " class="image-counter" alt="">
                      <h2 class="timer count-title count-number" data-start="4090" data-target="4590">4590</h2>
                      <p class="stats-text">Project</p>
                   </div>
@@ -976,7 +976,7 @@
                   </div>
                </div>
             </div>
-            <div class="owl-carousel mt-4" data-autoplay="true" data-loop="true" data-nav="false" data-dots="true"
+            <div id="iq-clients" class="owl-carousel mt-4" data-autoplay="true" data-loop="true" data-nav="false" data-dots="true"
                data-items="5" data-items-laptop="5" data-items-tab="4" data-items-mobile="2" data-items-mobile-sm="1">
                <div class="item">
                   <div class="clients-box text-center">
@@ -1067,7 +1067,7 @@
                   </div>
                   <div class="widget">
                      <div class="textwidget">
-                        <p class="mt-3">Let Your Data Speak</p>
+                        <p class="mt-3">Let Your Data Speak <br> Empowering Your Business with Advanced Big Data Analytics</p>
                      </div>
                   </div>
                </div>
@@ -1141,7 +1141,7 @@
                </div>
             </div>
          </div>
-         <hr class="pt-5">
+         <hr class="pt-1">
          <!-- Address END -->
          <div class="pt-3 pb-3">
             <div class="row justify-content-between">
@@ -1206,7 +1206,10 @@
          Cookies -->
    <!-- Optional JavaScript -->
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
    <script src="assets/js/jquery-3.3.1.min.js"></script>
    <script src="assets/js/popper.min.js"></script>
    <script src="assets/js/bootstrap.min.js"></script>
@@ -1219,6 +1222,49 @@
    <script src="assets/js/custom.js"></script>
    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
+   <script>
+
+      $('#customers-testimonials').owlCarousel({
+         loop: true, 
+         margin: 0,
+         autoplay: true,
+         responsiveClass: true,
+         responsive: {
+            0: {
+               items: 1,
+               nav: true
+            },
+            600: {
+               items: 2,
+               nav: false
+            },
+            1000: {
+               items: 3, 
+            }
+         }
+      });
+      
+      $('#iq-clients').owlCarousel({
+         loop: true, 
+         margin: 0,
+         autoplay: true,
+         responsiveClass: true,
+         responsive: {
+            0: {
+               items: 1,
+               nav: true
+            },
+            600: {
+               items: 2,
+               nav: false
+            },
+            1000: {
+               items: 3, 
+            }
+         }
+      });
+
+   </script>
    <script>
       document.addEventListener("DOMContentLoaded", function () {
          var observer = new IntersectionObserver(function (entries) {
@@ -1376,7 +1422,7 @@
       var count_particles;
       var stats;
       var update;
-      stats = new Stats;
+      Stats = new stats;
       stats.setMode(0);
       stats.domElement.style.position = 'absolute';
       stats.domElement.style.left = '0px';
@@ -1391,34 +1437,9 @@
          }
          requestAnimationFrame(update);
       };
-      requestAnimationFrame(update);</script>
-   <script>
-      jQuery(document).ready(function ($) {
-         "use strict";
-         //  TESTIMONIALS CAROUSEL HOOK
-         $('#customers-testimonials').owlCarousel({
-            loop: true,
-            center: true,
-            items: 4,
-            margin: 0,
-            autoplay: true,
-            dots: true,
-            autoplayTimeout: 8500,
-            smartSpeed: 450,
-            responsive: {
-               0: {
-                  items: 2
-               },
-               768: {
-                  items: 4
-               },
-               1170: {
-                  items: 5
-               }
-            }
-         });
-      });
+      requestAnimationFrame(update);
    </script>
+
 
 </body>
 
