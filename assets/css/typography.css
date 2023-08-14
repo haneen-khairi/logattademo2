@@ -74,8 +74,8 @@ textarea { padding: 10px 0 0 10px; border-radius: .25rem; }
 }
 .title-box span { font-weight: 800; color: #044393; }
 .title-box p {
-    font-size: 16px;
-    text-align: inherit;
+    font-size: 20px;
+    text-align: center;
     line-height: 2em;
 }
 /*---------------------------------------------------------------------

@@ -2982,3 +2982,6 @@ display: inline-block;
 .no-padding{
     padding:20px 0px;
 }
+.CirItem p{
+    font-size:15px;
+}
